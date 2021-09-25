@@ -1,0 +1,56 @@
+#stu_details {
+    text-align:left;
+}
+#stu_details h3{ 
+    margin-bottom:10px;
+}
+#add_stu {
+    margin:20px;
+    top: 10%;
+    font-size:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#add_stu a{
+    color:#1D7323;
+    transition: all 0.2s linear 0s;
+}
+#add_stu a:hover{
+    color: green;
+}
+hr{
+    margin:10px;
+    margin-top:60px;
+}
+#del_btn{
+    height:37px;
+    width:80px;
+    padding:10px;
+    background-color:#D72929;
+    color:white;
+    border-radius:6px;
+    transition: all 0.2s linear 0s;
+    float:left;
+    display:inline-block;
+    font-weight:bold;
+}
+#del_btn:hover{
+    background-color:red;
+}
+#up_btn{
+    height:37px;
+    width:80px;
+    padding:10px;
+    background-color:#2060E8;
+    color:white;
+    border-radius:6px;
+    transition: all 0.2s linear 0s;
+    float:left;
+    display:inline-block;
+    margin-left:10px;
+    font-weight:bold;
+}
+#up_btn:hover{
+    background-color:blue;
+}

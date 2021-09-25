@@ -1,0 +1,22 @@
+table{
+     border:none;
+     margin-left:auto;
+     margin-right:auto;
+     border-spacing:10px;
+     column-gap:10px;
+     font-size:20px;
+     cellpadding:50px;
+}
+#update_stud{
+     text-align:center;
+     padding:10px;    
+}
+.btn{
+     height:40px;
+     width:200px;
+     font-size:20px;
+
+input{
+     height:20px;
+     font-size:18px;
+}

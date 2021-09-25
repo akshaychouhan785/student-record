@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block some_css %}<link rel="stylesheet" type="text/css" href="{% static 'index.css' %}">{%endblock%}
+{% block content %}  
+<div>
+{% for s in students %}
+<div id="stu_details">
+    <h3>Student Name : {{s.stu_name}}</h3>
+    <h3>Email : {{s.email}}</h3>
+    <h3>Mobile : {{s.mobile}}</h3>
+    <h3>Address : {{s.address}}</h3>
+    <h3>Branch : {{s.branch}}</h3>
+    <h3>Year : {{s.year}}</h3>
+    <h3>Semester : {{s.semester}}</h3>
+    {%if s.honors%}
+    <h3>B.E. with Honors</h3>
+    {%endif%}
+    <form action="delete">
+				<input type="hidden" name="id" value="{{s.id}}" />
+				<button id="del_btn">Delete</button>
+			</form>
+			<form action="update">
+				<input type="hidden" name="id" value="{{s.id}}" />
+				<button id="up_btn">Update</button>
+			</form>
+    <hr>
+</div>
+{%endfor%}
+</div>
+<div id="add_stu">
+<a href="addstudent">Add Student></a>
+</div>
+{%endblock%}

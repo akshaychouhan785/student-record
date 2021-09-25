@@ -1,0 +1,5 @@
+2021-07-26 20:20:53.387 IST [20837] LOG:  starting PostgreSQL 13.3 on aarch64-unknown-linux-android, compiled by Android (6454773 based on r365631c2) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project 98c855489587874b2a325e7a516b99d838599c6f) (based on LLVM 9.0.8svn), 64-bit
+2021-07-26 20:20:53.390 IST [20837] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-07-26 20:20:53.394 IST [20837] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2021-07-26 20:20:53.407 IST [20841] LOG:  database system was shut down at 2021-07-26 20:20:46 IST
+2021-07-26 20:20:53.427 IST [20837] LOG:  database system is ready to accept connections
